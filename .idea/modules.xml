@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/myapp.iml" filepath="$PROJECT_DIR$/.idea/modules/myapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/myapp.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/myapp.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/myapp.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/myapp.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/myapp.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/myapp.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/myapp.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/myapp.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter02/myapp.chapter02.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter02/myapp.chapter02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter02/myapp.chapter02.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter02/myapp.chapter02.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter02/myapp.chapter02.main.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter02/myapp.chapter02.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter02/myapp.chapter02.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter02/myapp.chapter02.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter03/myapp.chapter03.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter03/myapp.chapter03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter03/myapp.chapter03.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter03/myapp.chapter03.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter03/myapp.chapter03.main.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter03/myapp.chapter03.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter03/myapp.chapter03.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter03/myapp.chapter03.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter04/myapp.chapter04.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter04/myapp.chapter04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter04/myapp.chapter04.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter04/myapp.chapter04.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter04/myapp.chapter04.main.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter04/myapp.chapter04.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter04/myapp.chapter04.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter04/myapp.chapter04.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter05/myapp.chapter05.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter05/myapp.chapter05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter05/myapp.chapter05.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter05/myapp.chapter05.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter05/myapp.chapter05.main.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter05/myapp.chapter05.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter05/myapp.chapter05.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter05/myapp.chapter05.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter06/myapp.chapter06.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter06/myapp.chapter06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter06/myapp.chapter06.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter06/myapp.chapter06.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter06/myapp.chapter06.main.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter06/myapp.chapter06.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter06/myapp.chapter06.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter06/myapp.chapter06.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter07/myapp.chapter07.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter07/myapp.chapter07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter07/myapp.chapter07.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter07/myapp.chapter07.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter07/myapp.chapter07.main.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter07/myapp.chapter07.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter07/myapp.chapter07.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter07/myapp.chapter07.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter08/myapp.chapter08.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter08/myapp.chapter08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter08/myapp.chapter08.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter08/myapp.chapter08.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter08/myapp.chapter08.main.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter08/myapp.chapter08.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter08/myapp.chapter08.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter08/myapp.chapter08.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter09/myapp.chapter09.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter09/myapp.chapter09.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter09/myapp.chapter09.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter09/myapp.chapter09.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter09/myapp.chapter09.main.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter09/myapp.chapter09.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter09/myapp.chapter09.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter09/myapp.chapter09.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter10/myapp.chapter10.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter10/myapp.chapter10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter10/myapp.chapter10.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter10/myapp.chapter10.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter10/myapp.chapter10.main.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter10/myapp.chapter10.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter10/myapp.chapter10.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter10/myapp.chapter10.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter11/myapp.chapter11.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter11/myapp.chapter11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter11/myapp.chapter11.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter11/myapp.chapter11.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter11/myapp.chapter11.main.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter11/myapp.chapter11.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter11/myapp.chapter11.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter11/myapp.chapter11.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter12/myapp.chapter12.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter12/myapp.chapter12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter12/myapp.chapter12.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter12/myapp.chapter12.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter12/myapp.chapter12.main.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter12/myapp.chapter12.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter12/myapp.chapter12.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter12/myapp.chapter12.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter13/myapp.chapter13.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter13/myapp.chapter13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter13/myapp.chapter13.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter13/myapp.chapter13.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter13/myapp.chapter13.main.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter13/myapp.chapter13.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter13/myapp.chapter13.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter13/myapp.chapter13.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter14/myapp.chapter14.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter14/myapp.chapter14.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter14/myapp.chapter14.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter14/myapp.chapter14.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter14/myapp.chapter14.main.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter14/myapp.chapter14.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter14/myapp.chapter14.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter14/myapp.chapter14.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter15/myapp.chapter15.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter15/myapp.chapter15.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter15/myapp.chapter15.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter15/myapp.chapter15.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter15/myapp.chapter15.main.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter15/myapp.chapter15.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter15/myapp.chapter15.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter15/myapp.chapter15.unitTest.iml" />
+    </modules>
+  </component>
+</project>
