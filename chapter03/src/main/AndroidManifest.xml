@@ -17,6 +17,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".TextViewActivity" />
+        <activity android:name=".imitate.C311TextShowAct" />
+        <activity android:name=".imitate.C312TextSizeAct" />
+
         <activity android:name=".TextSizeActivity" />
         <activity android:name=".TextColorActivity" />
         <activity android:name=".ViewBorderActivity" />

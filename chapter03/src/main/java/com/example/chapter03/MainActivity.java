@@ -6,6 +6,9 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.chapter03.imitate.C311TextShowAct;
+import com.example.chapter03.imitate.C312TextSizeAct;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     @Override
@@ -16,6 +19,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btn_text_view).setOnClickListener(this);
         findViewById(R.id.btn_text_size).setOnClickListener(this);
         findViewById(R.id.btn_text_color).setOnClickListener(this);
+
+        findViewById(R.id.imi_btn_text_view).setOnClickListener(this);
+        findViewById(R.id.imi_btn_text_size).setOnClickListener(this);
+        findViewById(R.id.imi_btn_text_color).setOnClickListener(this);
+
+
+
         findViewById(R.id.btn_view_border).setOnClickListener(this);
         findViewById(R.id.btn_view_margin).setOnClickListener(this);
         findViewById(R.id.btn_view_gravity).setOnClickListener(this);
@@ -32,6 +42,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btn_image_button).setOnClickListener(this);
         findViewById(R.id.btn_image_text).setOnClickListener(this);
         findViewById(R.id.btn_calculator).setOnClickListener(this);
+
     }
 
     @Override
@@ -43,6 +54,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             Intent intent = new Intent(this, TextSizeActivity.class);
             startActivity(intent);
         } else if (v.getId() == R.id.btn_text_color) {
+            Intent intent = new Intent(this, TextColorActivity.class);
+            startActivity(intent);
+        } else if (v.getId() == R.id.imi_btn_text_view) {
+            Intent intent = new Intent(this, C311TextShowAct.class);
+            startActivity(intent);
+        } else if (v.getId() == R.id.imi_btn_text_size) {
+            Intent intent = new Intent(this, C312TextSizeAct.class);
+            startActivity(intent);
+        } else if (v.getId() == R.id.imi_btn_text_color) {
             Intent intent = new Intent(this, TextColorActivity.class);
             startActivity(intent);
         } else if (v.getId() == R.id.btn_view_border) {
