@@ -110,6 +110,33 @@
                     android:text="对齐方式" />
 
             </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/imi_btn_view_border"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="仿视图宽高" />
+
+                <Button
+                    android:id="@+id/imi_btn_view_margin"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="仿空白间隔" />
+
+                <Button
+                    android:id="@+id/imi_btn_view_gravity"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="仿对齐方式" />
+
+            </LinearLayout>
 
             <TextView
                 android:layout_width="match_parent"

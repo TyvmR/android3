@@ -7,12 +7,12 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.chapter03.R;
 
-public class C311TextShowAct extends AppCompatActivity {
+public class CH311TextShowAct extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.imitate_ch3_1);
+        setContentView(R.layout.imitate_ch3_1_1);
 //        TextView view = findViewById(R.id.imi_ts);
 //        view.setText("代码设置文本视图");
     }

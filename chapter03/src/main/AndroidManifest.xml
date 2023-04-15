@@ -17,9 +17,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".TextViewActivity" />
-        <activity android:name=".imitate.C311TextShowAct" />
-        <activity android:name=".imitate.C312TextSizeAct" />
-
+        <activity android:name=".imitate.CH311TextShowAct" />
+        <activity android:name=".imitate.CH12TextSizeAct" />
+        <activity android:name=".imitate.CH313TextColorAct" android:exported="true"/>
+        <activity android:name=".imitate.CH321Act" />
+        <activity android:name=".imitate.CH322Act" />
+        <activity android:name=".imitate.CH323Act" />
         <activity android:name=".TextSizeActivity" />
         <activity android:name=".TextColorActivity" />
         <activity android:name=".ViewBorderActivity" />

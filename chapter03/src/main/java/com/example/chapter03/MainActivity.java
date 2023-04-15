@@ -6,8 +6,12 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.chapter03.imitate.C311TextShowAct;
-import com.example.chapter03.imitate.C312TextSizeAct;
+import com.example.chapter03.imitate.CH311TextShowAct;
+import com.example.chapter03.imitate.CH12TextSizeAct;
+import com.example.chapter03.imitate.CH313TextColorAct;
+import com.example.chapter03.imitate.CH321Act;
+import com.example.chapter03.imitate.CH322Act;
+import com.example.chapter03.imitate.CH323Act;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -29,6 +33,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btn_view_border).setOnClickListener(this);
         findViewById(R.id.btn_view_margin).setOnClickListener(this);
         findViewById(R.id.btn_view_gravity).setOnClickListener(this);
+
+
+        findViewById(R.id.imi_btn_view_border).setOnClickListener(this);
+        findViewById(R.id.imi_btn_view_margin).setOnClickListener(this);
+        findViewById(R.id.imi_btn_view_gravity).setOnClickListener(this);
+
         findViewById(R.id.btn_linear_layout).setOnClickListener(this);
         findViewById(R.id.btn_linear_weight).setOnClickListener(this);
         findViewById(R.id.btn_grid_layout).setOnClickListener(this);
@@ -57,13 +67,22 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             Intent intent = new Intent(this, TextColorActivity.class);
             startActivity(intent);
         } else if (v.getId() == R.id.imi_btn_text_view) {
-            Intent intent = new Intent(this, C311TextShowAct.class);
+            Intent intent = new Intent(this, CH311TextShowAct.class);
             startActivity(intent);
         } else if (v.getId() == R.id.imi_btn_text_size) {
-            Intent intent = new Intent(this, C312TextSizeAct.class);
+            Intent intent = new Intent(this, CH12TextSizeAct.class);
             startActivity(intent);
         } else if (v.getId() == R.id.imi_btn_text_color) {
-            Intent intent = new Intent(this, TextColorActivity.class);
+            Intent intent = new Intent(this, CH313TextColorAct.class);
+            startActivity(intent);
+        } else if (v.getId() == R.id.imi_btn_view_border) {
+            Intent intent = new Intent(this, CH321Act.class);
+            startActivity(intent);
+        } else if (v.getId() == R.id.imi_btn_view_margin) {
+            Intent intent = new Intent(this, CH322Act.class);
+            startActivity(intent);
+        } else if (v.getId() == R.id.imi_btn_view_gravity) {
+            Intent intent = new Intent(this, CH323Act.class);
             startActivity(intent);
         } else if (v.getId() == R.id.btn_view_border) {
             Intent intent = new Intent(this, ViewBorderActivity.class);
