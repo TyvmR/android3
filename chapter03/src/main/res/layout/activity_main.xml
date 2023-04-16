@@ -172,6 +172,27 @@
                 android:orientation="horizontal">
 
                 <Button
+                    android:id="@+id/imi_btn_linear_layout"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="仿线性布局（方向）" />
+
+                <Button
+                    android:id="@+id/imi_btn_linear_weight"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="仿线性布局（权重）" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
                     android:id="@+id/btn_grid_layout"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -193,6 +214,34 @@
                     android:text="滚动视图" />
 
             </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/imi_btn_grid_layout"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="仿网格布局" />
+
+                <Button
+                    android:id="@+id/imi_btn_relative_layout"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="仿相对布局" />
+
+                <Button
+                    android:id="@+id/imi_btn_scroll_view"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="仿滚动视图" />
+
+            </LinearLayout>
+
 
             <TextView
                 android:layout_width="match_parent"

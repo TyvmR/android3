@@ -12,6 +12,11 @@ import com.example.chapter03.imitate.CH313TextColorAct;
 import com.example.chapter03.imitate.CH321Act;
 import com.example.chapter03.imitate.CH322Act;
 import com.example.chapter03.imitate.CH323Act;
+import com.example.chapter03.imitate.CH331_1Act;
+import com.example.chapter03.imitate.CH331_2Act;
+import com.example.chapter03.imitate.CH332Act;
+import com.example.chapter03.imitate.CH333Act;
+import com.example.chapter03.imitate.CH334Act;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -23,7 +28,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btn_text_view).setOnClickListener(this);
         findViewById(R.id.btn_text_size).setOnClickListener(this);
         findViewById(R.id.btn_text_color).setOnClickListener(this);
-
         findViewById(R.id.imi_btn_text_view).setOnClickListener(this);
         findViewById(R.id.imi_btn_text_size).setOnClickListener(this);
         findViewById(R.id.imi_btn_text_color).setOnClickListener(this);
@@ -33,17 +37,24 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btn_view_border).setOnClickListener(this);
         findViewById(R.id.btn_view_margin).setOnClickListener(this);
         findViewById(R.id.btn_view_gravity).setOnClickListener(this);
-
-
         findViewById(R.id.imi_btn_view_border).setOnClickListener(this);
         findViewById(R.id.imi_btn_view_margin).setOnClickListener(this);
         findViewById(R.id.imi_btn_view_gravity).setOnClickListener(this);
+
 
         findViewById(R.id.btn_linear_layout).setOnClickListener(this);
         findViewById(R.id.btn_linear_weight).setOnClickListener(this);
         findViewById(R.id.btn_grid_layout).setOnClickListener(this);
         findViewById(R.id.btn_relative_layout).setOnClickListener(this);
         findViewById(R.id.btn_scroll_view).setOnClickListener(this);
+        findViewById(R.id.imi_btn_linear_layout).setOnClickListener(this);
+        findViewById(R.id.imi_btn_linear_weight).setOnClickListener(this);
+        findViewById(R.id.imi_btn_grid_layout).setOnClickListener(this);
+        findViewById(R.id.imi_btn_relative_layout).setOnClickListener(this);
+        findViewById(R.id.imi_btn_scroll_view).setOnClickListener(this);
+
+
+
         findViewById(R.id.btn_button_style).setOnClickListener(this);
         findViewById(R.id.btn_button_click).setOnClickListener(this);
         findViewById(R.id.btn_button_longclick).setOnClickListener(this);
@@ -92,6 +103,21 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             startActivity(intent);
         } else if (v.getId() == R.id.btn_view_gravity) {
             Intent intent = new Intent(this, ViewGravityActivity.class);
+            startActivity(intent);
+        } else if (v.getId() == R.id.imi_btn_linear_layout) {
+            Intent intent = new Intent(this, CH331_1Act.class);
+            startActivity(intent);
+        } else if (v.getId() == R.id.imi_btn_linear_weight) {
+            Intent intent = new Intent(this, CH331_2Act.class);
+            startActivity(intent);
+        } else if (v.getId() == R.id.imi_btn_grid_layout) {
+            Intent intent = new Intent(this, CH333Act.class);
+            startActivity(intent);
+        } else if (v.getId() == R.id.imi_btn_relative_layout) {
+            Intent intent = new Intent(this, CH332Act.class);
+            startActivity(intent);
+        } else if (v.getId() == R.id.imi_btn_scroll_view) {
+            Intent intent = new Intent(this, CH334Act.class);
             startActivity(intent);
         } else if (v.getId() == R.id.btn_linear_layout) {
             Intent intent = new Intent(this, LinearLayoutActivity.class);
