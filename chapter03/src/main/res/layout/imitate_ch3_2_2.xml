@@ -2,39 +2,21 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="300dp"
+    android:background="#00aaff"
+    >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:background="#00ffff"
-        android:text="视图宽度采用wrap-content"/>
-
-
-
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:background="#00ffff"
-        android:text="视图宽度采用match_parent"/>
+        android:layout_height="80dp"
+        android:layout_margin="20dp"
+        android:padding="60dp"
+        android:background="#ffff99">
 
-
-    <TextView
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:background="#00ffff"
-        android:text="视图宽度采用固定大小"/>
-
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:background="#00ffff"
-        android:text="通过代码指定宽度"
-        android:id="@+id/imi_ch_3_2_1_code_with"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ff0000"/>
+    </LinearLayout>
 
 </LinearLayout>
