@@ -284,6 +284,34 @@
                 android:orientation="horizontal">
 
                 <Button
+                    android:id="@+id/imi_btn_button_style"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="仿英文大小写" />
+
+                <Button
+                    android:id="@+id/imi_btn_button_click"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="仿按钮点击" />
+
+                <Button
+                    android:id="@+id/imi_btn_button_longclick"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="仿按钮长按" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
                     android:id="@+id/btn_button_enable"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -291,6 +319,20 @@
                     android:text="禁用与恢复按钮" />
 
             </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/imi_btn_button_enable"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="仿禁用与恢复按钮" />
+
+            </LinearLayout>
+
 
             <TextView
                 android:layout_width="match_parent"
@@ -324,6 +366,33 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="图文混排" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/imi_btn_image_scale"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="仿图像拉伸" />
+
+                <Button
+                    android:id="@+id/imi_btn_image_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="仿图像按钮" />
+
+                <Button
+                    android:id="@+id/imi_btn_image_text"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="仿图文混排" />
 
             </LinearLayout>
 

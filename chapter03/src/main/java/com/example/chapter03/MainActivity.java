@@ -17,6 +17,13 @@ import com.example.chapter03.imitate.CH331_2Act;
 import com.example.chapter03.imitate.CH332Act;
 import com.example.chapter03.imitate.CH333Act;
 import com.example.chapter03.imitate.CH334Act;
+import com.example.chapter03.imitate.CH341Act;
+import com.example.chapter03.imitate.CH342Act;
+import com.example.chapter03.imitate.CH343Act;
+import com.example.chapter03.imitate.CH344Act;
+import com.example.chapter03.imitate.CH351Act;
+import com.example.chapter03.imitate.CH352Act;
+import com.example.chapter03.imitate.CH353Act;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -59,9 +66,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btn_button_click).setOnClickListener(this);
         findViewById(R.id.btn_button_longclick).setOnClickListener(this);
         findViewById(R.id.btn_button_enable).setOnClickListener(this);
+        findViewById(R.id.imi_btn_button_style).setOnClickListener(this);
+        findViewById(R.id.imi_btn_button_click).setOnClickListener(this);
+        findViewById(R.id.imi_btn_button_longclick).setOnClickListener(this);
+        findViewById(R.id.imi_btn_button_enable).setOnClickListener(this);
+
         findViewById(R.id.btn_image_scale).setOnClickListener(this);
         findViewById(R.id.btn_image_button).setOnClickListener(this);
         findViewById(R.id.btn_image_text).setOnClickListener(this);
+        findViewById(R.id.imi_btn_image_scale).setOnClickListener(this);
+        findViewById(R.id.imi_btn_image_button).setOnClickListener(this);
+        findViewById(R.id.imi_btn_image_text).setOnClickListener(this);
+
         findViewById(R.id.btn_calculator).setOnClickListener(this);
 
     }
@@ -146,6 +162,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         } else if (v.getId() == R.id.btn_button_enable) {
             Intent intent = new Intent(this, ButtonEnableActivity.class);
             startActivity(intent);
+        } else if (v.getId() == R.id.imi_btn_button_style) {
+            Intent intent = new Intent(this, CH341Act.class);
+            startActivity(intent);
+        } else if (v.getId() == R.id.imi_btn_button_click) {
+            Intent intent = new Intent(this, CH342Act.class);
+            startActivity(intent);
+        } else if (v.getId() == R.id.imi_btn_button_longclick) {
+            Intent intent = new Intent(this, CH343Act.class);
+            startActivity(intent);
+        } else if (v.getId() == R.id.imi_btn_button_enable) {
+            Intent intent = new Intent(this, CH344Act.class);
+            startActivity(intent);
         } else if (v.getId() == R.id.btn_image_scale) {
             Intent intent = new Intent(this, ImageScaleActivity.class);
             startActivity(intent);
@@ -154,6 +182,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             startActivity(intent);
         } else if (v.getId() == R.id.btn_image_text) {
             Intent intent = new Intent(this, ImageTextActivity.class);
+            startActivity(intent);
+        } else if (v.getId() == R.id.imi_btn_image_scale) {
+            Intent intent = new Intent(this, CH351Act.class);
+            startActivity(intent);
+        } else if (v.getId() == R.id.imi_btn_image_button) {
+            Intent intent = new Intent(this, CH352Act.class);
+            startActivity(intent);
+        } else if (v.getId() == R.id.imi_btn_image_text) {
+            Intent intent = new Intent(this, CH353Act.class);
             startActivity(intent);
         } else if (v.getId() == R.id.btn_calculator) {
             Intent intent = new Intent(this, CalculatorActivity.class);
