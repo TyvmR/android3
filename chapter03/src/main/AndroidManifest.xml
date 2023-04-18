@@ -19,14 +19,14 @@
         <activity android:name=".TextViewActivity" />
         <activity android:name=".imitate.CH311TextShowAct" />
         <activity android:name=".imitate.CH12TextSizeAct" />
-        <activity android:name=".imitate.CH313TextColorAct" android:exported="true"/>
+        <activity android:name=".imitate.CH313TextColorAct"/>
         <activity android:name=".imitate.CH321Act" />
         <activity android:name=".imitate.CH322Act"/>
         <activity android:name=".imitate.CH323Act" />
 
         <activity android:name=".imitate.CH331_1Act" />
         <activity android:name=".imitate.CH331_2Act" />
-        <activity android:name=".imitate.CH332Act"  android:exported="true" />
+        <activity android:name=".imitate.CH332Act" />
         <activity android:name=".imitate.CH333Act" />
         <activity android:name=".imitate.CH334Act" />
 
