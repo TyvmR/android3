@@ -2,9 +2,13 @@ package com.example.chapter04;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.chapter04.imitate.CH4_1_1_StartActivity;
+import com.example.chapter04.imitate.CH4_1_3_LifeActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -14,6 +18,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
         findViewById(R.id.btn_act_open).setOnClickListener(this);
+        findViewById(R.id.imi_btn_act_open).setOnClickListener(this);
+
         findViewById(R.id.btn_act_life).setOnClickListener(this);
         findViewById(R.id.btn_act_jump).setOnClickListener(this);
         findViewById(R.id.btn_act_login).setOnClickListener(this);
@@ -34,11 +40,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
+        Log.d("Click",String.valueOf(v.getId()));
         if (v.getId() == R.id.btn_act_open) {
             Intent intent = new Intent(this, ActStartActivity.class);
             startActivity(intent);
+        } else if (v.getId() == R.id.imi_btn_act_open) {
+            Intent intent = new Intent(this, CH4_1_1_StartActivity.class);
+            startActivity(intent);
         } else if (v.getId() == R.id.btn_act_life) {
             Intent intent = new Intent(this, ActLifeActivity.class);
+            startActivity(intent);
+        } else if (v.getId() == R.id.imi_btn_act_life) {
+            Intent intent = new Intent(this, CH4_1_3_LifeActivity.class);
             startActivity(intent);
         } else if (v.getId() == R.id.btn_act_jump) {
             Intent intent = new Intent(this, JumpFirstActivity.class);

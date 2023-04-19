@@ -24,8 +24,18 @@
         </activity>
         <activity android:name=".ActStartActivity" />
         <activity android:name=".ActFinishActivity" />
+        <activity android:name=".imitate.CH4_1_1_StartActivity" />
+        <activity android:name=".imitate.CH4_1_2_FinishActivity" />
+
+
         <activity android:name=".ActLifeActivity" />
         <activity android:name=".ActNextActivity" />
+        <activity android:name=".imitate.CH4_1_3_LifeActivity" />
+        <activity android:name=".imitate.CH4_1_4_NextActivity" />
+
+
+
+
         <activity
             android:name=".JumpFirstActivity"
             android:launchMode="standard" />
