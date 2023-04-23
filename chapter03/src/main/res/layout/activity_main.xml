@@ -416,6 +416,19 @@
                     android:text="简单计算器" />
             </LinearLayout>
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/imi_btn_calculator"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="仿简单计算器" />
+            </LinearLayout>
+
         </LinearLayout>
     </ScrollView>
 

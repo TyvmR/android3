@@ -24,6 +24,7 @@ import com.example.chapter03.imitate.CH344Act;
 import com.example.chapter03.imitate.CH351Act;
 import com.example.chapter03.imitate.CH352Act;
 import com.example.chapter03.imitate.CH353Act;
+import com.example.chapter03.imitate.ImiCalculatorActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -79,7 +80,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.imi_btn_image_text).setOnClickListener(this);
 
         findViewById(R.id.btn_calculator).setOnClickListener(this);
-
+        findViewById(R.id.imi_btn_calculator).setOnClickListener(this);
     }
 
     @Override
@@ -194,6 +195,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             startActivity(intent);
         } else if (v.getId() == R.id.btn_calculator) {
             Intent intent = new Intent(this, CalculatorActivity.class);
+            startActivity(intent);
+        } else if (v.getId() == R.id.imi_btn_calculator) {
+            Intent intent = new Intent(this, ImiCalculatorActivity.class);
             startActivity(intent);
         }
     }

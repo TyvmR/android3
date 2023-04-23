@@ -39,6 +39,8 @@
         <activity android:name=".imitate.CH352Act" />
         <activity android:name=".imitate.CH353Act" />
 
+        <activity android:name=".imitate.ImiCalculatorActivity"/>
+
         <activity android:name=".TextSizeActivity" />
         <activity android:name=".TextColorActivity" />
         <activity android:name=".ViewBorderActivity" />

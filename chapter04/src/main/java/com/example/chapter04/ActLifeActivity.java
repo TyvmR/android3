@@ -76,7 +76,7 @@ public class ActLifeActivity extends AppCompatActivity implements View.OnClickLi
     public void onClick(View v) {
         if (v.getId() == R.id.btn_act_next) {
             // 从当前页面跳到指定的活动页面
-            startActivity(new Intent(this, ActNextActivity.class));
+            startActivity(new Intent(this,ActNextActivity.class));
         }
     }
 
