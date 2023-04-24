@@ -100,5 +100,20 @@ public class ImiCalculatorActivity extends AppCompatActivity implements View.OnC
         } else {
             inputText = ((TextView)v).getText().toString();
         }
+        if(v.getId() == R.id.imi_btn_cancel){
+            //取消
+
+        } else if (v.getId() == R.id.imi_btn_clear) {
+            //清除
+            
+        } else if (v.getId() == R.id.imi_btn_muti || v.getId() == R.id.imi_btn_plus
+        || v.getId() == R.id.imi_btn_divide || v.getId() == R.id.imi_btn_minus) {
+
+        } else if(v.getId() == R.id.imi_btn_equal) {
+
+        } else {
+            //普通的数字
+            refreshText(inputText);
+        }
     }
 }
