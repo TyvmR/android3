@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         findViewById(R.id.btn_act_open).setOnClickListener(this);
         findViewById(R.id.imi_btn_act_open).setOnClickListener(this);
+        findViewById(R.id.imi_btn_action_uri).setOnClickListener(this);
 
         findViewById(R.id.btn_act_life).setOnClickListener(this);
         findViewById(R.id.btn_act_jump).setOnClickListener(this);
@@ -28,6 +29,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btn_request_response).setOnClickListener(this);
         findViewById(R.id.btn_register_result).setOnClickListener(this);
         findViewById(R.id.btn_choose_photo).setOnClickListener(this);
+        findViewById(R.id.imi_btn_choose_photo).setOnClickListener(this);
         findViewById(R.id.btn_broad_standard).setOnClickListener(this);
         findViewById(R.id.btn_broad_order).setOnClickListener(this);
         findViewById(R.id.btn_broad_static).setOnClickListener(this);
@@ -62,6 +64,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         } else if (v.getId() == R.id.btn_action_uri) {
             Intent intent = new Intent(this, ActionUriActivity.class);
             startActivity(intent);
+        } else if (v.getId() == R.id.imi_btn_action_uri) {
+            Intent intent = new Intent(this, ImiActionUriActivity.class);
+            startActivity(intent);
         } else if (v.getId() == R.id.btn_send_receive) {
             Intent intent = new Intent(this, ActSendActivity.class);
             startActivity(intent);
@@ -74,7 +79,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         } else if (v.getId() == R.id.btn_choose_photo) {
             Intent intent = new Intent(this, ChoosePhotoActivity.class);
             startActivity(intent);
-        } else if (v.getId() == R.id.btn_broad_standard) {
+        } else if (v.getId() == R.id.imi_btn_choose_photo) {
+            Intent intent = new Intent(this, ImiChoosePhotoActivity.class);
+            startActivity(intent);
+        }
+          else if (v.getId() == R.id.btn_broad_standard) {
             Intent intent = new Intent(this, BroadStandardActivity.class);
             startActivity(intent);
         } else if (v.getId() == R.id.btn_broad_order) {
