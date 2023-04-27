@@ -17,9 +17,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".DrawableShapeActivity" />
+        <activity android:name=".ImiDrawbleShapeActivity" />
         <activity android:name=".DrawableNineActivity" />
         <activity android:name=".DrawableStateActivity" />
         <activity android:name=".CheckBoxActivity" />
+        <activity android:name=".ImiCheckBoxActivity" />
+
         <activity android:name=".SwitchDefaultActivity" />
         <activity android:name=".SwitchIOSActivity" />
         <activity android:name=".RadioHorizontalActivity" />

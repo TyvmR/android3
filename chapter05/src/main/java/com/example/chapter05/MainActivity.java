@@ -14,9 +14,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
         findViewById(R.id.btn_shape).setOnClickListener(this);
+        findViewById(R.id.imi_btn_shape).setOnClickListener(v -> {
+            Intent intent = new Intent(this, ImiDrawbleShapeActivity.class);
+            startActivity(intent);
+        });
         findViewById(R.id.btn_nine).setOnClickListener(this);
         findViewById(R.id.btn_state).setOnClickListener(this);
+
+
         findViewById(R.id.btn_checkbox).setOnClickListener(this);
+        findViewById(R.id.imi_btn_checkbox).setOnClickListener(v -> {
+            Intent intent = new Intent(this, ImiCheckBoxActivity.class);
+            startActivity(intent);
+        });
         findViewById(R.id.btn_switch_default).setOnClickListener(this);
         findViewById(R.id.btn_switch_ios).setOnClickListener(this);
         findViewById(R.id.btn_radio_horizontal).setOnClickListener(this);
