@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         } else if (v.getId() == R.id.btn_app_read) {
             startActivity(new Intent(this, AppReadActivity.class));
         } else if (v.getId() == R.id.btn_room_write) {
-            startActivity(new Intent(this, RoomWriteActivity.class));
+            startActivity(new Intent( this, RoomWriteActivity.class));
         } else if (v.getId() == R.id.btn_room_read) {
             startActivity(new Intent(this, RoomReadActivity.class));
         } else if (v.getId() == R.id.btn_content_write) {
