@@ -1,0 +1,2 @@
+com/zhijieketang/MyJavaClass.java
+ com.zhijieketang.MyJavaClass

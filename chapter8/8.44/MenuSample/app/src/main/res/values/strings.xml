@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">MenuSample</string>
-    <string name="textView">选择菜单</string>
-    <string name="menu1">菜单1</string>
-    <string name="menu2">菜单2</string>
-    <string name="menu3">菜单3</string>
-</resources>

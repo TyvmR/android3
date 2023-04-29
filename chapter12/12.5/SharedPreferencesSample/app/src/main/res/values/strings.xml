@@ -1,5 +1,0 @@
-<resources>
-    <string name="app_name">Hello Android</string>
-    <string name="read_button_label">写入数据</string>
-    <string name="write_button_label">读取数据</string>
-</resources>

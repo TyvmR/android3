@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">MyMap</string>
-    <string name="traffic">显示交通路况</string>
-    <string name="normal">普通地图模式</string>
-    <string name="satellite">卫星地图模式</string>
-</resources>
