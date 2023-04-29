@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TextToast</string>
+    <string name="label">点击按钮显示Toast</string>
+</resources>

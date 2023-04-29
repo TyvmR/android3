@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">电话黑名单</string>
+    <string name="stop">停止黑名单功能</string>
+    <string name="start">启动黑名单功能</string>
+</resources>

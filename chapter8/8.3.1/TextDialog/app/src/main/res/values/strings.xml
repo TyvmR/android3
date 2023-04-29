@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TextDialog</string>
+    <string name="label">显示对话框</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="other">其他按钮</string>
+</resources>

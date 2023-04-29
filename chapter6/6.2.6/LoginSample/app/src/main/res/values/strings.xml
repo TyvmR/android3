@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">相对布局</string>
+    <string name="title">LinearLayout线性布局</string>
+    <string name="activity_main_search">名称查询：</string>
+    <string name="activity_main_confirm">查询</string>
+    <string name="activity_main_cancel">取消</string>
+</resources>

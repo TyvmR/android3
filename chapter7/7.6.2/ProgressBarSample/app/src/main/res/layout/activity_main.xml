@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/progressbar_1_progress"
+        android:textSize="20sp" />
+
+    <ProgressBar
+        android:id="@+id/progress_horizontal01"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="50" />
+
+    <!--包含按钮栏-->
+    <include
+        android:id="@+id/button_bar1"
+        layout="@layout/button_bar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/progressbar_2_secondary_progress"
+        android:textSize="20sp" />
+
+    <ProgressBar
+        android:id="@+id/progress_horizontal02"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="50"
+        android:secondaryProgress="75" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/progressbar_up" />
+
+    <!--包含按钮栏-->
+    <include
+        android:id="@+id/button_bar2"
+        layout="@layout/button_bar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/progressbar_down" />
+
+    <!--包含按钮栏-->
+    <include
+        android:id="@+id/button_bar3"
+        layout="@layout/button_bar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/progressbar_3"
+        android:textSize="20sp" />
+
+    <ProgressBar
+        android:id="@+id/progress_horizontal03"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:indeterminate="true" />
+
+</LinearLayout>

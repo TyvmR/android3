@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">IntentSample</string>
+    <string name="label1">调用WEB浏览器</string>
+    <string name="label2">调用地图</string>
+    <string name="label3">调拨打电话界面</string>
+    <string name="label4">调用发邮件</string>
+    <string name="label5">播放MP3</string>
+</resources>
+

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <!--比赛项目列表信息碎片-->
+    <fragment
+        android:id="@+id/fragment_master"
+        android:name="com.zhijieketang.EventsMasterFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+    <!--两个碎片之间的分割线-->
+    <View
+        android:layout_width="0.6dp"
+        android:layout_height="wrap_content"
+        android:background="#4070FF" />
+    <!--比赛项目详细信息碎片-->
+    <fragment
+        android:id="@+id/fragment_detail"
+        android:name="com.zhijieketang.EventsDetailFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2" />
+    fragment_container
+</LinearLayout>

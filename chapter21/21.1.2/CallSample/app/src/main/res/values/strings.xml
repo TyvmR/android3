@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CallSample</string>
+    <string name="dialstring">调出拨打电话界面</string>
+    <string name="callstring">直接呼叫电话号码</string>
+</resources>
