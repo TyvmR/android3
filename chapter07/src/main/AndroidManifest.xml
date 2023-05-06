@@ -31,6 +31,8 @@
         <activity android:name=".ImiBaseAdapterActivity" />
 
         <activity android:name=".ListViewActivity" />
+        <activity android:name=".ImiListViewActivity" />
+
         <activity android:name=".ListFocusActivity" />
         <activity android:name=".GridViewActivity" />
         <activity android:name=".ViewPagerActivity" />

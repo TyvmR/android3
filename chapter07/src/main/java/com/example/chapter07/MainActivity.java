@@ -41,6 +41,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
         findViewById(R.id.btn_list_view).setOnClickListener(this);
+        findViewById(R.id.imi_btn_list_view).setOnClickListener(v -> {
+            startActivity(new Intent(this,ImiListViewActivity.class));
+        });
+
+
         findViewById(R.id.btn_list_focus).setOnClickListener(this);
         findViewById(R.id.btn_list_cart).setOnClickListener(this);
 
