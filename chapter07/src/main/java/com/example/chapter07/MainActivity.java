@@ -14,20 +14,51 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
         findViewById(R.id.btn_spinner_dropdown).setOnClickListener(this);
+        findViewById(R.id.imi_btn_spinner_dropdown).setOnClickListener(v -> {
+            startActivity(new Intent(this,ImiSpinnerDropdownActivity.class));
+        });
+
+
+
         findViewById(R.id.btn_spinner_dialog).setOnClickListener(this);
+        findViewById(R.id.imi_btn_spinner_dialog).setOnClickListener(v -> {
+            startActivity(new Intent(this,ImiSpinnerDialogActivity.class));
+        });
+
+
+
         findViewById(R.id.btn_spinner_icon).setOnClickListener(this);
+        findViewById(R.id.imi_btn_spinner_icon).setOnClickListener(v -> {
+            startActivity(new Intent(this,ImiSpinnerIconActivity.class));
+        });
+
+
         findViewById(R.id.btn_base_adapter).setOnClickListener(this);
+        findViewById(R.id.imi_btn_base_adapter).setOnClickListener(v -> {
+            startActivity(new Intent(this,ImiBaseAdapterActivity.class));
+        });
+
+
+
         findViewById(R.id.btn_list_view).setOnClickListener(this);
         findViewById(R.id.btn_list_focus).setOnClickListener(this);
         findViewById(R.id.btn_list_cart).setOnClickListener(this);
+
+
         findViewById(R.id.btn_grid_view).setOnClickListener(this);
         findViewById(R.id.btn_grid_channel).setOnClickListener(this);
+
+
         findViewById(R.id.btn_view_pager).setOnClickListener(this);
         findViewById(R.id.btn_tab_strip).setOnClickListener(this);
+
         findViewById(R.id.btn_launch_simple).setOnClickListener(this);
+
         findViewById(R.id.btn_fragment_static).setOnClickListener(this);
         findViewById(R.id.btn_fragment_dynamic).setOnClickListener(this);
+
         findViewById(R.id.btn_launch_improve).setOnClickListener(this);
+
         findViewById(R.id.btn_book_keeping).setOnClickListener(this);
     }
 
