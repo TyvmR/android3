@@ -34,6 +34,8 @@
         <activity android:name=".ImiListViewActivity" />
 
         <activity android:name=".ListFocusActivity" />
+        <activity android:name=".ListFocusActivityImi" />
+
         <activity android:name=".GridViewActivity" />
         <activity android:name=".ViewPagerActivity" />
         <activity android:name=".PagerTabActivity" />
