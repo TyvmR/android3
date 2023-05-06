@@ -52,11 +52,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         });
 
 
-
+        //此处缺少购物车的内容，本章节最后补上
         findViewById(R.id.btn_list_cart).setOnClickListener(this);
 
 
         findViewById(R.id.btn_grid_view).setOnClickListener(this);
+        findViewById(R.id.imi_btn_grid_view).setOnClickListener( v -> {
+            startActivity(new Intent(this,GridViewActivityImi.class));
+        });
         findViewById(R.id.btn_grid_channel).setOnClickListener(this);
 
 

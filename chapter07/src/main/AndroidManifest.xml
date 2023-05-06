@@ -37,6 +37,11 @@
         <activity android:name=".ListFocusActivityImi" />
 
         <activity android:name=".GridViewActivity" />
+        <activity android:name=".GridViewActivityImi" />
+
+
+
+
         <activity android:name=".ViewPagerActivity" />
         <activity android:name=".PagerTabActivity" />
         <activity android:name=".LaunchSimpleActivity" android:theme="@style/AppCompatTheme" />
