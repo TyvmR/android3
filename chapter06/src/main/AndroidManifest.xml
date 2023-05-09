@@ -30,8 +30,13 @@
             </intent-filter>
         </activity>
         <activity android:name=".ShareWriteActivity" />
+        <activity android:name=".ShareWriteActivityImi" />
+
         <activity android:name=".ShareReadActivity" />
+        <activity android:name=".ShareReadActivityImi" />
+
         <activity android:name=".LoginShareActivity" />
+        <activity android:name=".LoginShareActivityImi" />
         <activity android:name=".DatastoreWriteActivity" />
         <activity android:name=".DatastoreReadActivity" />
         <activity android:name=".LoginStoreActivity" />

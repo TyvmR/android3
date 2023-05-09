@@ -18,11 +18,21 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
         findViewById(R.id.btn_share_write).setOnClickListener(this);
+        findViewById(R.id.imi_btn_share_write).setOnClickListener(
+                v -> startActivity(new Intent(this,ShareWriteActivityImi.class)));
         findViewById(R.id.btn_share_read).setOnClickListener(this);
+        findViewById(R.id.imi_btn_share_read).setOnClickListener(
+                v -> startActivity(new Intent(this,ShareReadActivityImi.class))
+        );
+
         findViewById(R.id.btn_login_share).setOnClickListener(this);
+        findViewById(R.id.imi_btn_login_share).setOnClickListener(
+                v -> startActivity(new Intent(this,LoginShareActivityImi.class))
+        );
         findViewById(R.id.btn_datastore_write).setOnClickListener(this);
         findViewById(R.id.btn_datastore_read).setOnClickListener(this);
         findViewById(R.id.btn_sqlite_create).setOnClickListener(this);
+
         findViewById(R.id.btn_sqlite_write).setOnClickListener(this);
         findViewById(R.id.btn_sqlite_read).setOnClickListener(this);
         findViewById(R.id.btn_login_sqlite).setOnClickListener(this);

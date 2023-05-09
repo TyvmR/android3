@@ -45,6 +45,27 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="记住登录信息" />
+
+                <Button
+                    android:id="@+id/imi_btn_share_write"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="仿写入共享参数" />
+
+                <Button
+                    android:id="@+id/imi_btn_share_read"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="仿读取共享参数" />
+
+                <Button
+                    android:id="@+id/imi_btn_login_share"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="仿记住登录信息" />
             </LinearLayout>
 
             <LinearLayout
@@ -65,6 +86,20 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="读取数据仓库" />
+
+                <Button
+                    android:id="@+id/imi_btn_datastore_write"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="仿写入数据仓库" />
+
+                <Button
+                    android:id="@+id/imi_btn_datastore_read"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="仿读取数据仓库" />
             </LinearLayout>
 
             <TextView
