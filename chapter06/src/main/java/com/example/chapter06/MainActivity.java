@@ -31,9 +31,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         );
         findViewById(R.id.btn_datastore_write).setOnClickListener(this);
         findViewById(R.id.btn_datastore_read).setOnClickListener(this);
-        findViewById(R.id.btn_sqlite_create).setOnClickListener(this);
 
+
+        findViewById(R.id.btn_sqlite_create).setOnClickListener(this);
+        findViewById(R.id.imi_btn_sqlite_create).setOnClickListener(v -> startActivity(new Intent(MainActivity.this,DataBaseActivityImi.class)));
         findViewById(R.id.btn_sqlite_write).setOnClickListener(this);
+        findViewById(R.id.imi_btn_sqlite_write).setOnClickListener(v -> startActivity(new Intent(MainActivity.this,SqlLiteWriteActivityImi.class)));
         findViewById(R.id.btn_sqlite_read).setOnClickListener(this);
         findViewById(R.id.btn_login_sqlite).setOnClickListener(this);
         findViewById(R.id.btn_file_path).setOnClickListener(this);
@@ -47,7 +50,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btn_app_write).setOnClickListener(this);
         findViewById(R.id.btn_app_read).setOnClickListener(this);
         findViewById(R.id.btn_room_write).setOnClickListener(this);
+        findViewById(R.id.imi_btn_room_write).setOnClickListener(v -> startActivity(new Intent(MainActivity.this,RoomWriteActivityImi.class)));
         findViewById(R.id.btn_room_read).setOnClickListener(this);
+        findViewById(R.id.imi_btn_room_read).setOnClickListener(v -> startActivity(new Intent(MainActivity.this,RoomReadActivityImi.class)));
         findViewById(R.id.btn_content_write).setOnClickListener(this);
         findViewById(R.id.btn_content_read).setOnClickListener(this);
         findViewById(R.id.btn_contact_add).setOnClickListener(this);
