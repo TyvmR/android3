@@ -30,14 +30,24 @@
             </intent-filter>
         </activity>
         <activity android:name=".ShareWriteActivity" />
+        <activity android:name=".ShareWriteActivityImi" />
+
         <activity android:name=".ShareReadActivity" />
+        <activity android:name=".ShareReadActivityImi" />
+
         <activity android:name=".LoginShareActivity" />
+        <activity android:name=".LoginShareActivityImi" />
         <activity android:name=".DatastoreWriteActivity" />
         <activity android:name=".DatastoreReadActivity" />
         <activity android:name=".LoginStoreActivity" />
         <activity android:name=".LoginForgetActivity" />
+
+
         <activity android:name=".DatabaseActivity" />
+        <activity android:name=".DataBaseActivityImi" />
+
         <activity android:name=".SQLiteWriteActivity" />
+        <activity android:name=".SqlLiteWriteActivityImi" />
         <activity android:name=".SQLiteReadActivity" />
         <activity android:name=".LoginSQLiteActivity" />
         <activity android:name=".FilePathActivity" />
@@ -49,7 +59,11 @@
         <activity android:name=".AppWriteActivity" />
         <activity android:name=".AppReadActivity" />
         <activity android:name=".RoomWriteActivity" />
+        <activity android:name=".RoomWriteActivityImi" />
         <activity android:name=".RoomReadActivity" />
+        <activity android:name=".RoomReadActivityImi" />
+
+
         <activity android:name=".ContentWriteActivity" />
         <activity android:name=".ContentReadActivity" />
         <activity android:name=".ContactAddActivity" />

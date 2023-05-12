@@ -18,12 +18,30 @@
             </intent-filter>
         </activity>
         <activity android:name=".SpinnerDropdownActivity" />
+        <activity android:name=".ImiSpinnerDropdownActivity"/>
+
         <activity android:name=".SpinnerDialogActivity" />
+        <activity android:name=".ImiSpinnerDialogActivity" />
+
         <activity android:name=".SpinnerIconActivity" />
+        <activity android:name=".ImiSpinnerIconActivity" />
+
+
         <activity android:name=".BaseAdapterActivity" />
+        <activity android:name=".ImiBaseAdapterActivity" />
+
         <activity android:name=".ListViewActivity" />
+        <activity android:name=".ImiListViewActivity" />
+
         <activity android:name=".ListFocusActivity" />
+        <activity android:name=".ListFocusActivityImi" />
+
         <activity android:name=".GridViewActivity" />
+        <activity android:name=".GridViewActivityImi" />
+
+
+
+
         <activity android:name=".ViewPagerActivity" />
         <activity android:name=".PagerTabActivity" />
         <activity android:name=".LaunchSimpleActivity" android:theme="@style/AppCompatTheme" />

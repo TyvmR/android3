@@ -32,6 +32,7 @@
                     android:layout_weight="1"
                     android:text="下拉模式" />
 
+
                 <Button
                     android:id="@+id/btn_spinner_dialog"
                     android:layout_width="0dp"
@@ -45,6 +46,34 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="带图标列表" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/imi_btn_spinner_dropdown"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="仿下拉模式" />
+
+
+                <Button
+                    android:id="@+id/imi_btn_spinner_dialog"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="仿对话框模式" />
+
+                <Button
+                    android:id="@+id/imi_btn_spinner_icon"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="仿带图标列表" />
             </LinearLayout>
 
             <TextView
@@ -88,6 +117,34 @@
                 android:orientation="horizontal">
 
                 <Button
+                    android:id="@+id/imi_btn_base_adapter"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="仿基本适配器" />
+
+                <Button
+                    android:id="@+id/imi_btn_list_view"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="仿列表视图" />
+
+                <Button
+                    android:id="@+id/imi_btn_list_focus"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="仿抢占焦点的列表视图" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
                     android:id="@+id/btn_list_cart"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -107,6 +164,33 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="手机商场网格视图" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/imi_btn_list_cart"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="仿购物车列表视图" />
+
+                <Button
+                    android:id="@+id/imi_btn_grid_view"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="仿网格视图" />
+
+                <Button
+                    android:id="@+id/imi_btn_grid_channel"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="仿手机商场网格视图" />
             </LinearLayout>
 
             <TextView

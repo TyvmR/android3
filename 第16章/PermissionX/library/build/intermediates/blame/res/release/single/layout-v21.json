@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/guolin/AndroidStudioProjects/AndroidFirstLine/PermissionX/library/build/intermediates/res/merged/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/guolin/.gradle/caches/transforms-2/files-2.1/5b454e4f1a30a31f78d2352c725b41cb/core-1.1.0/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/guolin/AndroidStudioProjects/AndroidFirstLine/PermissionX/library/build/intermediates/res/merged/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/guolin/.gradle/caches/transforms-2/files-2.1/5b454e4f1a30a31f78d2352c725b41cb/core-1.1.0/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/guolin/AndroidStudioProjects/AndroidFirstLine/PermissionX/library/build/intermediates/res/merged/release/layout-v21/notification_action.xml",
+        "source": "/Users/guolin/.gradle/caches/transforms-2/files-2.1/5b454e4f1a30a31f78d2352c725b41cb/core-1.1.0/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/guolin/AndroidStudioProjects/AndroidFirstLine/PermissionX/library/build/intermediates/res/merged/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/guolin/.gradle/caches/transforms-2/files-2.1/5b454e4f1a30a31f78d2352c725b41cb/core-1.1.0/res/layout-v21/notification_template_custom_big.xml"
+    }
+]

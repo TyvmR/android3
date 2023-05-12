@@ -8,6 +8,7 @@ import androidx.room.Room;
 import com.example.chapter06.database.BookDatabase;
 import com.example.chapter06.database.CartDatabase;
 import com.example.chapter06.database.GoodsDatabase;
+import com.example.chapter06.database.StudentDatabase;
 
 import java.util.HashMap;
 
@@ -21,6 +22,9 @@ public class MainApplication extends MultiDexApplication {
     private BookDatabase bookDatabase; // 声明一个书籍数据库对象
     private CartDatabase cartDatabase; // 声明一个购物车数据库对象
     private GoodsDatabase goodsDatabase; // 声明一个商品数据库对象
+
+
+    private StudentDatabase studentDatabase;
 
     // 利用单例模式获取当前应用的唯一实例
     public static MainApplication getInstance() {
@@ -44,6 +48,10 @@ public class MainApplication extends MultiDexApplication {
         // 构建商品数据库的实例
         goodsDatabase = Room.databaseBuilder(mApp, GoodsDatabase.class,"GoodsInfo")
                 .addMigrations().allowMainThreadQueries().build();
+
+        // 构建学生数据库的实例
+        studentDatabase = Room.databaseBuilder(mApp, StudentDatabase.class,"StudentInfo")
+                .addMigrations().allowMainThreadQueries().build();
     }
 
     @Override
@@ -65,5 +73,10 @@ public class MainApplication extends MultiDexApplication {
     // 获取商品数据库的实例
     public GoodsDatabase getGoodsDB(){
         return goodsDatabase;
+    }
+
+
+    public StudentDatabase getStudentDb(){
+        return studentDatabase;
     }
 }
