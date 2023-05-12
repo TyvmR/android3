@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
         findViewById(R.id.btn_tab_navigation).setOnClickListener(this);
+        findViewById(R.id.imi_btn_tab_navigation).setOnClickListener( v -> startActivity(new Intent(this,TabNavigationActivityImi.class)));
         findViewById(R.id.btn_tab_button).setOnClickListener(this);
         findViewById(R.id.btn_tab_pager).setOnClickListener(this);
         findViewById(R.id.btn_toolbar).setOnClickListener(this);
